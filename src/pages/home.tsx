@@ -23,18 +23,10 @@ export default function Home() {
   return (
 
     <Container maxW={[""]} centerContent>
-      {/* 
-      <Flex as="section" id="header_banner" direction="column" w="100vw" align="center" bg="orange.200">
-        <Flex w="100vw" direction="column" align="center" bg="orange.200" zIndex="1"> */}
       <Header />
-      {/* <Box w="76%" display="flex" justifyContent="space-between" alignItems="end" mt="-5" pb="1">
-            <Text lineHeight="1" fontSize={["20", "30", "50"]} fontWeight="bold" color="blue.700">&Motos</Text> */}
       <NavLink color="blue.700" />
-      {/* </Box> */}
       <Divider w="100vw" borderColor="blue.700" />
-      {/* </Flex> */}
       <Banner />
-      {/* </Flex > */}
 
       <Flex as="section" id="carousel" w="100vw" bg="blue.700" justify="center" pt={["2", "2", "2", "4"]} pb={["59", "70", "70", "90"]}>
         <Icon as={RiCurrencyLine} fontSize={["15", "20", "20", "25"]} mr="2" mt="1" />
@@ -43,7 +35,7 @@ export default function Home() {
 
       <Carousel />
 
-      <Flex as="section" id="boxitems" w="100vw" h={["65", "90", "90", "140"]} align="center" justify="center" bg="blue.700">
+      <Flex as="section" id="boxitems" w="100vw" h={["55", "75", "100", "160"]} align="center" justify="center" bg="blue.700">
         <BoxItems />
       </Flex>
 
