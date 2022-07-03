@@ -76,9 +76,7 @@ export default function Home() {
           {bestSellersCard.map((sale) =>
             <Box key={sale.model} w="24%" display="flex" borderRadius="10" alignItems="center" flexDirection="column" background="white" color="blue.700" border="2px solid white" cursor="pointer" _hover={{ background: "orange.100" }}>
               <Text pb="1" fontSize={["10", "12", "14", "16"]} fontWeight="600" flex-wrap="wrap" textAlign="center" color="blue.700">{sale.model}</Text>
-              {/* <Divider w="85%" borderColor="blue.700" /> */}
               <Image src={sale.imgProduct} alt="image_award" w="85%" />
-              {/* <Divider w="85%" borderColor="blue.700" /> */}
               <Text fontSize={["8", "10", "12", "14"]} fontWeight="300" pt="2" flex-wrap="wrap" textAlign="center">{sale.address}</Text>
             </Box>
           )}

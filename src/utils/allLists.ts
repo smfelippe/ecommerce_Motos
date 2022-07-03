@@ -1,7 +1,6 @@
 import { RiSecurePaymentLine, RiUserVoiceLine } from "react-icons/ri"
 import { ImTicket } from "react-icons/im"
 import { BiDevices } from "react-icons/bi"
-import { Product } from "../models/Product"
 import { LearnMoreCard } from "../models/LearnMoreCard"
 import { BestSellersCard } from "../models/BestSellersCard"
 import { BlogCard } from "../models/BlogCard"
@@ -492,6 +491,66 @@ export const products = [
     id: 62,
     title: "Suzuki M109R",
     image: "../images/moto_7.png",
+    value: "250.000",
+  },
+  {
+    id: 63,
+    title: "Cruiser Chopper",
+    image: "../images/moto_3.png",
+    value: "250.000",
+  },
+  {
+    id: 64,
+    title: "Suzuki Hayabusa",
+    image: "../images/moto_10.png",
+    value: "250.000",
+  },
+  {
+    id: 65,
+    title: "Kawazaki Z750",
+    image: "../images/moto_29.png",
+    value: "250.000",
+  },
+  {
+    id: 66,
+    title: "Kawazaki ZX-14",
+    image: "../images/moto_17.png",
+    value: "250.000",
+  },
+  {
+    id: 67,
+    title: "Yamaha YZF-R",
+    image: "../images/moto_9.png",
+    value: "250.000",
+  },
+  {
+    id: 68,
+    title: "Ducati 959D Panigale",
+    image: "../images/moto_5.png",
+    value: "250.000",
+  },
+  {
+    id: 69,
+    title: "Kawazaki Ninja-300",
+    image: "../images/moto_13.png",
+    value: "250.000",
+  },
+  {
+    id: 70,
+    title: "Yamaha YZF-R6",
+    image: "../images/moto_8.png",
+    value: "250.000",
+  },
+  {
+    id: 71,
+    title: "Honda CBR600RR",
+    image: "../images/moto_15.png",
+    value: "250.000",
+  },
+  {
+    id: 72,
+    title: "Lifan Motor KPR-200",
+    image: "../images/moto_1.png",
     value: "250.000",
   },
 ]
